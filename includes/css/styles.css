@@ -1,0 +1,351 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   
+   /*.big_logo{
+      height: 150px;
+   }
+   
+   .head{
+      margin-top: 70px;
+      margin-left: 0;
+      font-family: 'Great Vibes', cursive;
+   }
+
+   .nav-collapse{
+      margin-left: 20px;
+   }
+
+   .navbar-brand{
+      padding: 0 0;
+      margin-right: 0;
+   }
+
+   .links{
+      margin-left: 50px;
+      margin-top: 60px;
+   }*/
+   
+   .head{
+      background-color: black;
+      color: black;
+      height: 50px;
+   }
+
+   .head1 h4{
+      margin-top: 0;
+      opacity: 2;
+      color: white;
+   }
+
+   .head li a{
+      color: white;
+      text-shadow: 1px 1px 20px black;
+      font-weight: 400;
+   }
+   
+   .well{
+      margin: 20px 0;
+   }
+
+   .r1{
+      margin-bottom: 20px;
+   }
+
+   .r2{
+      margin-bottom: 50px;
+   }
+
+   .r1 a:hover{
+      opacity: 0.7;
+   }
+
+   .r2 a:hover{
+      opacity: 0.7;
+   }
+
+   .r1, .r2 {
+      text-align: center;
+   }
+
+   .r1 strong, .r2 strong{
+      display: block;
+   }
+   .r1 a, .r2 a{
+      display: block;
+   }
+
+   .w1{
+      background-color: transparent;
+   }
+
+   #tab1 img{
+      height: 335px;
+      width: 500px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+   }
+
+   #tab1 img:hover{
+      content: url(../../images/t2.jpg);
+
+   }
+
+   #tab2 img:hover{
+      content: url(../../images/t4.jpeg);
+   }
+
+   #tab2 img{
+      height: 335px;
+      width: 500px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+   }
+
+   .dropdown-menu{
+      background-color: black;
+   }
+
+   #searchInput{
+   width: 300px;
+   }
+
+   .navbar-responsive-collapse{
+      background-color: black;
+   }
+
+   .foot{
+      
+      background-color: black;
+      opacity: 0.8;
+   }
+
+   .foot1{
+      opacity: 3;
+      color: white;
+      margin-top: 13px;
+   }
+
+   .page-header{
+      margin-top: 0;
+
+      margin-left: 15px;
+   }
+
+   .page-header h1{
+      margin-top: 0;
+   }
+
+   .btn-warning{
+      margin-top: 100px;
+   }
+
+   .contact{
+      height: 600px;
+      width: 560px;
+      overflow: scroll;
+   }
+   
+   .contact .page-header{
+      margin-bottom: 0;
+   }
+
+   .contact img{
+      margin-bottom: 30px;
+   }
+/* --------------------------------------
+   Carousel
+   ----------------------------------
+   ---- */
+
+   .f{
+         
+
+   }
+
+   #myCarousel{
+      margin-top: 70px;
+   }
+
+   .foot{
+      margin-bottom: 0;
+   }
+
+#moreInfo{
+  margin-bottom: 20px;
+}
+
+.carousel-caption{
+   font-size: 22px;
+}
+
+.carousel-caption h4{
+   font-size: 34px;
+}
+
+#myCarousel .item{
+   height: 400px;
+
+}
+#slide1{
+   background: url('../../images/21.jpg') top center no-repeat;
+}
+
+#slide2{
+   background: url('../../images/20.jpg') top center no-repeat;
+}
+
+#slide3{
+   background: url('../../images/22.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+body{
+   background: url(../../images/background-map.gif) no-repeat fixed;
+   background-size: 100% 100%;
+
+   /*background-color: white;*/
+}
+
+.b1{
+   margin-left: 15px;
+   margin-bottom: 10px;
+}
+
+.b2{
+   margin-bottom: 10px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 1200px) {
+	#myCarousel .item{
+   height: 310px;
+
+}
+
+.carousel-caption{
+   font-size: 16px;
+}
+
+.carousel-caption h4{
+   font-size: 28px;
+}
+
+#slide1{
+   background: url('../../images/21a.jpg') top center no-repeat;
+}
+
+#slide2{
+   background: url('../../images/20a.jpg') top center no-repeat;
+}
+
+#slide3{
+   background: url('../../images/22a.jpg') top center no-repeat;
+}
+
+}
+
+
+@media (max-width: 768px) {
+   #myCarousel .item{
+   height: 250px;
+
+}
+
+.carousel-caption{
+   font-size: 10px;
+}
+
+.carousel-caption h4{
+   font-size: 22px;
+}
+
+#slide1{
+   background: url('../../images/21b.jpg') top center no-repeat;
+}
+
+#slide2{
+   background: url('../../images/20b.jpg') top center no-repeat;
+}
+
+#slide3{
+   background: url('../../images/22b.jpg') top center no-repeat;
+}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 1200px) {
+	.navbar-form{
+      display:none;
+   }
+}
+
+/* Large desktop */
+@media (max-width: 1200px) {
+	#searchInput{
+      width: 100px;
+   }
+}
+
+
+@media (max-width: 982px)
+{
+.navbar-form {
+    display: none;
+    background-color: black;
+    width: 100%;
+}
+
+
+.navbar-nav.pull-right {
+    /*width: 100%;*/
+    background-color: black;
+}
+
+.navbar-nav{
+   margin: 0 0;
+}
+
+#searchInput{
+   width: 100%;
+}
+
+.navbar-form{
+   margin: 0 0;
+}
+
+}
