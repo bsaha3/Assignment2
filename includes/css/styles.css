@@ -10,16 +10,40 @@ Notes:	 Hand coded for Udemy.com
 */
 
 
-/* --------------------------------------
+/* -------------
+-------------------------
    Layout
    -------------------------------------- */
 
+   .bgvideo
+   {
+      position: fixed;
+      right: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: 100%;
+      height: auto;
+      z-index: -9999;
+   }
 
+   #mod{
+      width: 100%;
+   }
+
+   #im1:hover{
+
+     
+
+   }
 
 /* --------------------------------------
    Typography
    -------------------------------------- */
 
+   .ind2{
+      margin-top: 90px;
+   }
 
 
 /* --------------------------------------
@@ -52,21 +76,21 @@ Notes:	 Hand coded for Udemy.com
    }*/
    
    .head{
-      background-color: black;
-      color: black;
+      /*background-color: black;
+      color: black;*/
       height: 50px;
    }
 
    .head1 h4{
       margin-top: 0;
-      opacity: 2;
-      color: white;
+      /*opacity: 2;
+      color: white;*/
    }
 
    .head li a{
-      color: white;
+      /*color: white;
       text-shadow: 1px 1px 20px black;
-      font-weight: 400;
+      font-weight: 400;*/
    }
    
    .well{
@@ -102,6 +126,7 @@ Notes:	 Hand coded for Udemy.com
 
    .w1{
       background-color: transparent;
+      border: 0;
    }
 
    #tab1 img{
@@ -127,9 +152,20 @@ Notes:	 Hand coded for Udemy.com
       margin-bottom: 10px;
    }
 
-   .dropdown-menu{
-      background-color: black;
+   .navbar-nav.pull-right>li>.dropdown-menu, .navbar-nav>li>.dropdown-menu.pull-right {
+    right: 0;
+    left: 0;
    }
+
+   .navbar-nav>li>.dropdown-menu {
+    right: 0;
+   }
+
+   #client{
+      width: 180px;
+      padding-left: 35px;
+   }
+
 
    #searchInput{
    width: 300px;
@@ -155,6 +191,8 @@ Notes:	 Hand coded for Udemy.com
       margin-top: 0;
 
       margin-left: 15px;
+
+      border-bottom: aqua;
    }
 
    .page-header h1{
@@ -285,6 +323,10 @@ body{
 
 }
 
+#client{
+      padding-left: 14px;
+   }
+
 .carousel-caption{
    font-size: 10px;
 }
@@ -349,3 +391,4 @@ body{
 }
 
 }
+
